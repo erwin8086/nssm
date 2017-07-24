@@ -81,6 +81,7 @@ minetest.register_craftitem("nssm:"..name, {
 	image =name..".png",
 	on_use = minetest.item_eat(gnam),
 	groups = { meat=1, eatable=1 },
+	spoil=4,
 })
 
 end
